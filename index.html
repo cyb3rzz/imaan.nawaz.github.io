@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imaan's Web</title>
+  <style>
+    body {
+      background: url('https://i.pinimg.com/originals/2c/a1/94/2ca1940c6cbeeab88122dd0c5c301f96.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      font-family: "Courier New", monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, rgba(255,105,180,0.9), rgba(255,105,180,0.8));
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    header img {
+      margin-top: 20px;
+      width: 300px;
+      height: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255,105,180,0.5);
+    }
+
+    .quote {
+      font-style: italic;
+      color: black; /* changed to black */
+      text-shadow: 1px 1px 2px white; /* subtle shadow for readability */
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: rgba(17, 17, 17, 0.9);
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+
+    nav a {
+      color: hotpink;
+      text-decoration: none;
+      padding: 14px 25px;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: hotpink;
+      color: black;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(17, 17, 17, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255,105,180,0.4);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: hotpink;
+      border-bottom: 2px solid hotpink;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    .content-box {
+      background-color: rgba(0, 0, 0, 0.8);
+      border: 1px solid hotpink;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255,105,180,0.2);
+      margin-top: 15px;
+    }
+
+    .projects ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .projects li {
+      margin-bottom: 10px;
+    }
+
+    a.email {
+      color: hotpink;
+      text-decoration: none;
+    }
+
+    a.email:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: rgba(17,17,17,0.9);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9em;
+      margin-top: 40px;
+      border-top: 1px solid hotpink;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Imaan's Web</h1>
+    <img src="https://media1.tenor.com/m/FdM6hkpKKmwAAAAd/shidou-ryusei-shidou.gif" alt="Shidou Ryusei saying yo">
+    <p>OREWA STRRRRRRRRRRRRIKER DA!!</p>
+    <p class="quote">"Set your heart ablaze" - Kyojuro Rengoku</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects / Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- HOME -->
+    <section id="home">
+      <h2>Home</h2>
+      <div class="content-box">
+        <p>Welcome to my site — get to know me, see my projects, and maybe get inspired.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="content-box">
+        <p>Hey! My name is Imaan. I’m a junior at The Wellspring Schools. I’m passionate about sports, anime, gaming, and music.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects / Skills / Achievements</h2>
+      <div class="content-box projects">
+        <ul>
+          <li>🏆 Member of The Wellspring Schools soccer team <strong>"Big Bang Drive"</strong> — we won <strong>1st place!</strong></li>
+          <li>🎨 Participated in <strong>MIST 2024</strong> with my team <strong>"Sabrsprings"</strong>.</li>
+          <li>🥈 Won <strong>2nd place</strong> in Digital Art and <strong>4th place</strong> in Volleyball.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="content-box">
+        <p>Feel free to reach out to me at <a href="mailto:imaan.nawaz@nycmc.me" class="email">imaan.nawaz@nycmc.me</a>.</p>
+        <p>You can also connect with me through my social links (coming soon!).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Imaan's Web | Built with HTML & CSS</p>
+  </footer>
+</body>
+</html>
